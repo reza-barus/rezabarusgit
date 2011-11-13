@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<container>
+<items id="books" count="13">
+<item>
+<id>13</id>
+<preview_image>
+http://192.168.180.7/ebook/api/image_resizer.php?url=//var/www/html/ebook/files/HP3.png&type=png&size=thumbnail_hp
+</preview_image>
+<title>tes kois</title>
+<desc/>
+<url>http://192.168.180.7/ebook/books/detail/13</url>
+</item>
+<item>
+<id>12</id>
+<preview_image>
+http://192.168.180.7/ebook/api/image_resizer.php?url=//var/www/html/ebook/files/1TQ/201107/edukasiislami3.png&type=png&size=thumbnail_hp
+</preview_image>
+<title>testing pendidikan islamiah</title>
+<desc/>
+<url>http://192.168.180.7/ebook/books/detail/12</url>
+</item>
+<item>
+<id>11</id>
+<preview_image>
+http://192.168.180.7/ebook/api/image_resizer.php?url=//var/www/html/ebook/files/1TQ/201107/magazineislami2.png&type=png&size=thumbnail_hp
+</preview_image>
+<title>testing majalah islami staging lagiii</title>
+<desc/>
+<url>http://192.168.180.7/ebook/books/detail/11</url>
+</item>
+<item>
+<id>10</id>
+<preview_image>
+http://192.168.180.7/ebook/api/image_resizer.php?url=//var/www/html/ebook/files/1TQ/201107/bookislami1.jpg&type=png&size=thumbnail_hp
+</preview_image>
+<title>
+testing islamiah lagi wakwakawkwakwakwakwakwakwak saskdawkkakw eeq kuda
+</title>
+<desc>
+asdasdasdaaasdasdasdaaasdasdasdaaasdasdasdaa asdasdasdaa asdasdasdaaasdasdasdaa asdasdasdaaasdasdasdaaasdasdasdaa asdasdasdaa asdasdasdaaa
+</desc>
+<url>http://192.168.180.7/ebook/books/detail/10</url>
+</item>
+<item>
+<id>9</id>
+<preview_image>
+http://192.168.180.7/ebook/api/image_resizer.php?url=//var/www/html/ebook/files/1TQ/201107/islami3.png&type=png&size=thumbnail_hp
+</preview_image>
+<title>koran islami 3 testing</title>
+<desc/>
+<url>http://192.168.180.7/ebook/books/detail/9</url>
+</item>
+<item>
+<id>8</id>
+<preview_image>
+http://192.168.180.7/ebook/api/image_resizer.php?url=//var/www/html/ebook/files/1TQ/201107/islami2.png&type=png&size=thumbnail_hp
+</preview_image>
+<title>testing majalah islami2</title>
+<desc/>
+<url>http://192.168.180.7/ebook/books/detail/8</url>
+</item>
+<item>
+<id>7</id>
+<preview_image>
+http://192.168.180.7/ebook/api/image_resizer.php?url=//var/www/html/ebook/files/1TQ/201107/islami1.jpg&type=png&size=thumbnail_hp
+</preview_image>
+<title>testing buku islamiah 1</title>
+<desc/>
+<url>http://192.168.180.7/ebook/books/detail/7</url>
+</item>
+<item>
+<id>6</id>
+<preview_image>
+http://192.168.180.7/ebook/api/image_resizer.php?url=//var/www/html/ebook/files/1TQ/201107/islami.png&type=png&size=thumbnail_hp
+</preview_image>
+<title>testing buku islami</title>
+<desc/>
+<url>http://192.168.180.7/ebook/books/detail/6</url>
+</item>
+<item>
+<id>5</id>
+<preview_image>
+http://192.168.180.7/ebook/api/image_resizer.php?url=//var/www/html/ebook/files/1TQ/201107/book.png&type=png&size=thumbnail_hp
+</preview_image>
+<title>tes lagi 5</title>
+<desc/>
+<url>http://192.168.180.7/ebook/books/detail/5</url>
+</item>
+</items>
+</container>

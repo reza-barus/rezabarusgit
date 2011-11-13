@@ -1,0 +1,53 @@
+<html>
+<head>
+	<meta name="apple-touch-fullscreen" content="YES" /> 
+	<meta name="viewport" content="width=320; user-scalable=no" />
+	<script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+	<script type="text/javascript">
+		
+		function processReturn(result,status,xhr) {
+			$("#result").html(result);
+		}
+		
+		function myParseXML(data) {		
+			var res = "";
+			$(data).find('firstname').each(function() {
+				$("#result").append($(this).text() + "<br/>");
+				//res += "<p>" + f + "</p>";
+			});
+			
+			$(data).find('lastname').each(function() {
+				$("#result").append($(this).text() + "<br/>");
+				//res += "<p>" + f + "</p>";
+			});
+		}
+	
+		$(document).ready(function(){
+			$("#click_area").click(function(){
+				$(this).hide();
+				
+				$.get(
+					"http://localhost/ajax_learn/satu/file.xml",
+					"",
+					myParseXML,
+					"html"
+				);
+				
+			});
+		});
+</script>
+</head>
+<body>
+	<div id="click_area">
+		<h1>Click me</h1>
+		<a href="#">Twitter</a>
+	</div>
+	
+	<div id="container">
+		<div id="result">
+		
+		</div>
+	</div>
+	
+</body>
+</html>
